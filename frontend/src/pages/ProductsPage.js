@@ -19,7 +19,7 @@ const ProductsPage = () => {
   const page = parseInt(searchParams.get('page') || '1');
 
   useEffect(() => {
-    document.title = `${search ? `"${search}" - ` : ''}${category ? `${category} - ` : ''}Shop - FreshMart`;
+    document.title = `${search ? `"${search}" – ` : ''}${category ? `${category} – ` : ''}Shop – FreshThingsOnly`;
   }, [search, category]);
 
   const fetchProducts = useCallback(async () => {

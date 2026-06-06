@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link to="/" className="footer-logo">
-              <span>🥦</span>
-              <span>Fresh<span style={{ color: 'var(--primary)' }}>Mart</span></span>
+              <span>🥬</span>
+              <span>Fresh<span style={{ color: 'var(--primary)', fontWeight: 900 }}>Things</span><span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>Only</span></span>
             </Link>
             <p className="footer-tagline">Your trusted partner for fresh, quality groceries delivered to your doorstep.</p>
             <div className="footer-socials">
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
             <div className="contact-item">
               <span>✉️</span>
-              <a href="mailto:hello@freshmart.com" id="footer-email">hello@freshmart.com</a>
+              <a href="mailto:hello@freshthingsonly.com" id="footer-email">hello@freshthingsonly.com</a>
             </div>
             <div className="contact-item">
               <span>🕐</span>
@@ -74,7 +74,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <div className="footer-bottom-left">
-            <p>© 2024 FreshMart. All rights reserved.</p>
+            <p>© 2025 FreshThingsOnly. All rights reserved.</p>
           </div>
           <div className="footer-bottom-right">
             <a href="#privacy" id="footer-privacy">Privacy Policy</a>

@@ -18,7 +18,7 @@ const MoonIcon    = () => <svg xmlns="http://www.w3.org/2000/svg" width="17" hei
 const Navbar = () => {
   const { user, logout, isAuthenticated } = useAuth();
   const { cartCount } = useCart();
-  const { theme, toggleTheme, isDark } = useTheme();
+  const { toggleTheme, isDark } = useTheme();
   const navigate = useNavigate();
   const loc = useLocation();
 
